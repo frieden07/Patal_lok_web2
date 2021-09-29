@@ -1,0 +1,37 @@
+header {
+    background: #333;
+    color: white;
+    margin-left: 253px;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    width: 1664px;
+}
+
+.tab-name {
+    margin-left: 20px;
+    color: white;
+    width: 500px;
+}
+
+.Admin-name {
+    margin-left: 450px;
+    color: white;
+    width: 550px;
+    height: 100%;
+}
+
+.tab-name>h1 {
+    width: 300px;
+}
+
+.Admin-name>h1 {
+    text-align: right;
+}
+
+.Admin-Avatar>img {
+    margin-left: 20px;
+    height: 80px;
+    width: 100;
+    background: slateblue;
+}
