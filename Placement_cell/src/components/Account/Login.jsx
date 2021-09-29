@@ -22,7 +22,7 @@ const Login = () => {
                     <br /><br />
                     <button style={{ width: "90px", borderRadius: "25px" }} type="submit">Log In</button>
 
-                    <Link className="newacc" to="/signup">Create New Account</Link>
+                    <Link to="/signup" style={{ color: "white", textDecoration: "none", float: 'right', marginTop: "20px" }}>Create New Account</Link>
                 </div>
 
             </form>
