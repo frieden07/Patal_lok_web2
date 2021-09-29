@@ -1,7 +1,9 @@
 import Home from "./components/Home/Home.js"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Login from "./components/Account/Login.jsx"
-import Signup from "./components/Account/Signup"
+// import Login from "./components/Account/Login.jsx"
+// import Signup from "./components/Account/Signup"
+import Login from "./components/Login/Login.jsx"
+import Signup from "./components/SignUp/Signup.jsx"
 import Admin_Dashboard from "./components/Admin/Admin_Dashboard.jsx"
 import Admin_create from "./components/Admin/Admin_create.jsx"
 import Admin_Profile from "./components/Admin/Admin_Profile.jsx"
