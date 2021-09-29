@@ -1,0 +1,64 @@
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 70px;
+    border-radius: 50%;
+}
+.signupcontainer>input[type=text],
+.signupcontainer>input[type=password] {
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover.signupbtn {
+    opacity: 50%;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+    margin-left: 130px;
+    width: 100px;
+    border-radius: 25px;
+
+}
+
+.signupcontainer {
+    color: white;
+    width: 400px;
+    margin-top: 145px;
+    margin-left: 750px;
+    border-radius: 25px;
+    padding: 16px;
+    background-color: rgb(16, 108, 184);
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
