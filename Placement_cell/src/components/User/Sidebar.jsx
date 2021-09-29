@@ -6,7 +6,7 @@ const Sidebar = (props) => {
         <Fragment>
             <div className="sidebar">
                 <div className="sidebar-brand">
-                    <h2>Admin</h2>
+                    <h2>User</h2>
                 </div>
 
                 <div className="sidebar-menu">
