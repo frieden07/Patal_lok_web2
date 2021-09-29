@@ -24,7 +24,7 @@ const Signup = () => {
                     <input type="password" placeholder="Repeat Password" name="password-repeat" required />
                     <br />
 
-                    <p style={{ fontSize: "15px", textAlign: "left" }} > By creating an account you agree to our<a href="#"
+                    <p style={{ fontSize: "15px", textAlign: "left" }} > By creating an account you agree to our&nbsp;<a href="#"
                         style={{ color: "dodgerblue", color: "white" }} >Terms & Privacy</a>
                     </p>
                     <br />
