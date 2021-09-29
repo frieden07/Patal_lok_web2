@@ -12,10 +12,10 @@ const Sidebar = (props) => {
                 <div className="sidebar-menu">
                     <ul>
                         <li>
-                            {<Link to="/admin_dashboard" /*className="{props.c1}"*/>Dashboard</Link>}
+                            {<Link to="/user_dashboard" /*className="{props.c1}"*/>Dashboard</Link>}
                         </li>
                         <li>
-                            <Link to="/admin_profile" /*className="{props.c3}"*/>My profile</Link>
+                            <Link to="/user_profile" /*className="{props.c3}"*/>My profile</Link>
                         </li>
                     </ul>
                 </div>
