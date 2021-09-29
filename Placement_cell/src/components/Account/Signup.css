@@ -22,7 +22,7 @@ input[type=password]:focus {
     outline: none;
 }
 
-button {
+button.signupbtn {
     background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
@@ -31,19 +31,14 @@ button {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    margin-left: 147px;
+    width: 100px;
+    border-radius: 25px;
+
 }
 
 button:hover.signupbtn {
     opacity: 50%;
-}
-
-
-/* Float cancel and signup buttons and add an equal width */
-.signupbtn {
-    margin-left: 130px;
-    width: 100px;
-    border-radius: 25px;
-
 }
 
 .signupcontainer {
