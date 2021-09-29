@@ -47,9 +47,3 @@ img.avatar {
 span.forgot_password {
     float: right;
 }
-
-.logincontainer>Link {
-    color: white;
-    float: right;
-    padding: 5px;
-}
